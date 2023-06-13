@@ -1,0 +1,54 @@
+.route-btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: fixed;
+    right: 5%;
+    overflow: hidden;
+    transition-duration: .3s;
+    z-index: 9999;
+}
+
+
+.sign {
+    width: 100%;
+    transition-duration: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    position: absolute;
+    right: 0%;
+    width: 0%;
+    opacity: 0;
+    font-size: 1.2em;
+    font-weight: 600;
+    transition-duration: .3s;
+}
+
+
+.login-btn{
+    box-shadow: 2px 2px 10px rgba(255, 77, 0, 0.099);
+    background-color: rgb(7, 160, 198);
+    color: rgb(255, 234, 0);
+
+}
+
+
+.xy-1 {
+    bottom: 6%;
+
+}
+
+.xy-2 {
+    right:50%;
+    bottom: 12%;
+}
+
